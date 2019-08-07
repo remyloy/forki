@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Forki</AssemblyName>
+    <Description>Simple creation and communication of and with child processes.</Description>
+    <Authors>Remy Loy</Authors>
+    <Company>Remy Loy</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/remyloy/forki</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Trace.fs" />
+    <Compile Include="Win32SigInt.fs" />
+    <Compile Include="SigInt.fs" />
+    <Compile Include="Forki.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

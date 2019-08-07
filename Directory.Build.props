@@ -1,0 +1,7 @@
+<Project>
+    <PropertyGroup>
+        <SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
+        <BaseIntermediateOutputPath>$(SolutionDir)bin\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+        <BaseOutputPath>$(SolutionDir)bin\compile\$(MSBuildProjectName)</BaseOutputPath>
+    </PropertyGroup>
+</Project>

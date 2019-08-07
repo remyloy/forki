@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Forki", "src\Forki\Forki.fsproj", "{2B465357-4256-40BD-A399-1A4CB9024E52}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Forki.Test", "tests\Forki.Test\Forki.Test.fsproj", "{A6356CBC-1A09-4246-AFE0-F9D0C9B18533}"
+	ProjectSection(ProjectDependencies) = postProject
+		{048AD698-3088-4C74-8122-429D15A95C6E} = {048AD698-3088-4C74-8122-429D15A95C6E}
+		{EBD8C8F4-2BAF-4EBC-969F-61AC7B3B2FA8} = {EBD8C8F4-2BAF-4EBC-969F-61AC7B3B2FA8}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7C64095-3659-4461-8DD9-9445215FEE20}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Echo.Server", "tests\Echo.Server\Echo.Server.fsproj", "{048AD698-3088-4C74-8122-429D15A95C6E}"
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Echo.Client", "tests\Echo.Client\Echo.Client.fsproj", "{EBD8C8F4-2BAF-4EBC-969F-61AC7B3B2FA8}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Forki.Reactive", "src\Forki.Reactive\Forki.Reactive.fsproj", "{75F7CDD0-9515-4C9D-BF69-80748BCF436E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B465357-4256-40BD-A399-1A4CB9024E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B465357-4256-40BD-A399-1A4CB9024E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B465357-4256-40BD-A399-1A4CB9024E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B465357-4256-40BD-A399-1A4CB9024E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6356CBC-1A09-4246-AFE0-F9D0C9B18533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6356CBC-1A09-4246-AFE0-F9D0C9B18533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6356CBC-1A09-4246-AFE0-F9D0C9B18533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6356CBC-1A09-4246-AFE0-F9D0C9B18533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048AD698-3088-4C74-8122-429D15A95C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048AD698-3088-4C74-8122-429D15A95C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048AD698-3088-4C74-8122-429D15A95C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048AD698-3088-4C74-8122-429D15A95C6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD8C8F4-2BAF-4EBC-969F-61AC7B3B2FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD8C8F4-2BAF-4EBC-969F-61AC7B3B2FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD8C8F4-2BAF-4EBC-969F-61AC7B3B2FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD8C8F4-2BAF-4EBC-969F-61AC7B3B2FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F7CDD0-9515-4C9D-BF69-80748BCF436E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F7CDD0-9515-4C9D-BF69-80748BCF436E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F7CDD0-9515-4C9D-BF69-80748BCF436E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F7CDD0-9515-4C9D-BF69-80748BCF436E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF34BE33-7502-4189-87A4-B0A3EAEC08A7}
+	EndGlobalSection
+EndGlobal
